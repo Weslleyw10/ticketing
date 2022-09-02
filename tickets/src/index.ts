@@ -8,7 +8,7 @@ const startApp = async () => {
     throw new Error('JWT_ERROR must be defined')
   }
 
-  if (!process.env.MONGO_URI) {
+  if(!process.env.MONGO_URI) {
     throw new Error('MONGO_URI must be defined')
   }
 
@@ -21,7 +21,7 @@ const startApp = async () => {
   }
 
   app.listen(3000, () => {
-    console.log("Auth listening on port 3000.");
+    console.log("Tickets Listening on port 3000.");
   });
   
 }

@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-import { UnAuthorizedError } from "../errors/unauthorized-error";
+import { UnAuthorizedError } from "@wlsticketing/common";
 
 export const requireAuth = (
     req: Request,

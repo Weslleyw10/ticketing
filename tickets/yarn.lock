@@ -813,10 +813,10 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@wlsticketing/common@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@wlsticketing/common/-/common-1.0.3.tgz#76012730d43ecc250b3508942798f5e99d70bad6"
-  integrity sha512-BGq0Z53WoBVG38ll55PWwDrs0F2hHPmQaGKOg9hoqmF2ddeQrtjp9FwoPijRYi2i2QS8MGFzrjxB3IY2X3NvRA==
+"@wlsticketing/common@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@wlsticketing/common/-/common-1.0.7.tgz#1d04982a333252cc082ca32937edca282de3bbe5"
+  integrity sha512-3/fqp9nH+UuKErNbRekSVnp3emwj1x4WKnKrsp0w6r9P8QKDe6A9v+S5CFnBYmi10s/4/R8FZ/7/sAjoN9E1NQ==
   dependencies:
     "@types/cookie-session" "^2.0.44"
     "@types/express" "^4.17.13"
